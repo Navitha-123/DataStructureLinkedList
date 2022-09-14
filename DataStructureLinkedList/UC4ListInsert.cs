@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructureLinkedList
 {
-    public class UC4InsertList
+    public class UC4ListInsert
     {
         Node head;
         int newdata;
