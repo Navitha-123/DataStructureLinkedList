@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UC8InsertSequenceList.cs" />
+    <Compile Include="UC7SearchList.cs" />
+    <Compile Include="UC4InsertList.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleLinkedList.cs" />
     <Compile Include="UC2AddList.cs" />
+    <Compile Include="UC3AppendList.cs" />
+    <Compile Include="UC5DeleteFirst.cs" />
+    <Compile Include="UC6DeleteLast.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
