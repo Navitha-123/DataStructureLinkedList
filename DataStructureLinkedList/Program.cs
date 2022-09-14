@@ -10,7 +10,7 @@ namespace DataStructureLinkedList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("choose option 1.add ele to list");
+            Console.WriteLine("choose option 1.add ele to list \t 2.Addfirst");
             int option = Convert.ToInt32(Console.ReadLine());   
             switch(option)
             {
@@ -25,6 +25,14 @@ namespace DataStructureLinkedList
 
                     list.Display();
                     break;
+                case 2:
+                    UC2AddList list1 = new UC2AddList();
+                    list1.ListAdd(70);
+                    list1.ListAdd(30);
+                    list1.ListAdd(56);
+                    list1.Display();
+                    break;
+
                 default:
                     Console.WriteLine("Enter wrong choice");
                     break;            
