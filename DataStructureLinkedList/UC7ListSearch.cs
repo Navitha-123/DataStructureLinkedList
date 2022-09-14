@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructureLinkedList
 {
-    public class UC7SearchList
+    public class UC7ListSearch
     {
         Node head;
         int newdata;
