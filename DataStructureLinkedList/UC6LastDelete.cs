@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructureLinkedList
 {
-    internal class UC6DeleteLast
+    internal class UC6LastDelete
     {
         Node head;
         int newdata;
